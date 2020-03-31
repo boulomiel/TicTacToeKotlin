@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/board"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:tag="1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:tag="2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+
+        <Button
+            android:id="@+id/btn3"
+            android:tag="3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btn4"
+                android:tag="4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+            <Button
+                android:id="@+id/btn5"
+                android:tag="5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+            <Button
+                android:id="@+id/btn6"
+                android:tag="6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btn7"
+                android:tag="7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+            <Button
+                android:id="@+id/btn8"
+                android:tag="8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+            <Button
+                android:id="@+id/btn9"
+                android:tag="9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/turnText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn"
+        android:layout_below="@+id/board"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/turnText"
+        android:text="New Game"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+
+</RelativeLayout>
